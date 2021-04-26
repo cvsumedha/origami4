@@ -1,0 +1,84 @@
+h1{
+    color:rgb(240, 236, 13);
+    justify-content: center
+   
+}
+.header * {
+    border:solid;
+}
+.header{
+background-color:rgb(218, 21, 70);
+display:flex;
+justify-content:first baseline ;
+}
+
+.grid{
+background-color: rgb(17, 238, 201);
+display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+a:link{
+    color:rgb(236, 80, 8);
+}
+a:visited{
+    color:black;
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+
+
+.body{
+background-color:rgb(7, 51, 65);
+}
+p,h2{
+color:rgb(38, 2, 43);
+font-family: cursive;
+text-align: center;
+}
+.item{
+position:relative;
+}
+.ss{
+    position:relative;
+    }
+    .item p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity: 0;
+    }
+    .item:hover p{
+    opacity: 1;
+    
+    }
+    .item:hover img{
+        opacity: 0.33;
+    }
+    .ss p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity: 0;
+    }
+    .ss:hover p{
+    opacity: 1;
+    
+    }
+    .ss:hover img{
+        opacity: 0.33;
+    }
+    .link{
+        margin-top: 50px;
+    }
+    
